@@ -10,53 +10,145 @@
   </head>
   <body>
     <main>
-        <div class="header">
-          <!-- add header items with links
-           title should link back to homepage
-           contact page for location and number
-           services page with some pics of stuff nad prices with links to contact page
-           about page if they want to talk more about themself
-           social links if they have social media
-           client tesimony 
-           thankgiving special on homepage-->
-                    <a href="/index.html" class="logo">CompanyLogo</a>
-                    <div class="header-right">
-                              <a href="/about.html">About</a>
-                              <a href="/services.html">Services</a>
-                              <a href="/contact.html">Contact</a>
-                              <a href="https://www.facebook.com/" target="_blank">Socials</a>
-                    </div>
-          </div>
-          <div class="fixedHeader" style="background-image: url(https://media.istockphoto.com/id/531328392/vector/beautiful-silhouette-of-long-hair-woman-on-pink-background.jpg?s=612x612&w=0&k=20&c=3yfbJ1wnkZ1_lwUrxFfJAGPid7NtPDtB6Zen7meuwhg=);">
-                    <div class="banner">
-                              <h3>Welcome to NAME</h3>
-                    </div>
-          </div>
-        <div class="aboutus">
-          <h2>About Us</h2>
-          <div class="briefIntro">
-                    <h3>Welcome to NAME</h3>
-                    Welcome to ______. We offer a variety of services such as ____________. Our team is committed to make you feel comfortable while delivering the results you desire. We welcome you with open arms to your new go-to salon!
-                    <a href="/about.html">
-                              <button>Click Me</button>
-                    </a>
+      <div class="header" style="position: sticky; width: 100%; top: 0;">
+        <!-- add header items with links
+        title should link back to homepage
+        contact page for location and number
+        services page with some pics of stuff nad prices with links to contact page
+        about page if they want to talk more about themself
+        social links if they have social media
+        client tesimony 
+        thankgiving special on homepage-->
+        <a href="/index.html" class="logo">CompanyLogo</a>
+        <div class="header-right">
+          <a href="/about.html">About</a>
+          <a href="/services.html">Services</a>
+          <a href="/contact.html">Contact</a>
+          <a href="https://www.facebook.com/" target="_blank">Socials</a>
+        </div>
+      </div>
+      <div class="fixedHeader" style="background-image: url(https://media.istockphoto.com/id/531328392/vector/beautiful-silhouette-of-long-hair-woman-on-pink-background.jpg?s=612x612&w=0&k=20&c=3yfbJ1wnkZ1_lwUrxFfJAGPid7NtPDtB6Zen7meuwhg=);">
+        <div style="padding-top: 120px;">
+          <h1><em>Welcome to NAME</em></h1>
+        </div>
+      </div>
+      <div class="aboutus">
+        <h2>About Us</h2>
+        <div class="briefIntro">
+          <h3>Welcome to NAME</h3>
+          Welcome to ______. We offer a variety of services such as ____________. Our team is committed to make you feel comfortable while delivering the results you desire. We welcome you with open arms to your new go-to salon!
+          <p><a href="/about.html" class="button">
+                    Click Me
+          </a></p>
+        </div>
+      </div>
+      <div class="specials">
+        <h2>Specials</h2>
+        <div class="banner" style="background-image: url(https://t3.ftcdn.net/jpg/02/30/48/14/360_F_230481408_DDkyevLoPnFkcx5kxDvRQIQDlm1ygXAj.jpg);">
+          <div style="padding-top: 50px;">For more information about specials please contact us
+            <p><a href="/contact.html" class="button">
+              Click Me
+            </a></p>
           </div>
         </div>
-        <div class="specials">
-          <h2>Specials</h2>
-          <div class="banner">
-                    <h3>Welcome to NAME</h3>
-                    Welcome to ______. We offer a variety of services such as ____________. Our team is committed to make you feel comfortable while delivering the results you desire. We welcome you with open arms to your new go-to salon!
-                    <a href="/about.html">
-                              <button>Click Me</button>
-                    </a>
-          </div>
-        </div>
-        
+      </div>
+      <div class="services">
+        <!-- START SERVICES DISPLAY CONTAINER -->
         <h2>Services</h2>
-        some services with images and link to contact/booking page
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="https://t4.ftcdn.net/jpg/01/01/75/99/360_F_101759983_umTprjVtO6sJb8fn4lHPMnMi5WXjUoeE.jpg" alt="Service1" style="width:100%">
+              <div class="container">
+                <h2>Service1</h2>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>$$$</p>
+                <p><a href="/services.html" class="button">
+                  Read more
+                </a></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="https://www.shutterstock.com/image-photo/portrait-pretty-relaxed-young-woman-600nw-2478831041.jpg" alt="Service2" style="width:100%">
+              <div class="container">
+                <h2>Service2</h2>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>$$$</p>
+                <p><a href="/services.html" class="button">
+                  Read more
+                </a></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/603912306/photo/master-in-the-cabin-removes-facial-hair-strand.jpg?s=612x612&w=0&k=20&c=FdMxBRQyZNn98Cvc7Okg_dmujvsrmBHbBzr3XluzT_8=" alt="Service3" style="width:100%">
+              <div class="container">
+                <h2>Service3</h2>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>$$$</p>
+                <p><a href="/services.html" class="button">
+                  Read more
+                </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END SERVICES DISPLAY CONTAINER -->
+      </div>
+      <div class="reviews">
         <h2>Reviews</h2>
+        <!-- START REVIEWS DISPLAY CONTAINER -->
+        <div class="revRow">
+          <div class="revCol">
+            <div class="content">
+              <img src="https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg" alt="Review1" style="width:70%; margin-left:auto; margin-right:auto; display: block;">
+              <h3>NAME</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="revCol">
+            <div class="content">
+              <img src="https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg" alt="Review2" style="width:70%; margin-left:auto; margin-right:auto; display: block;">
+              <h3>NAME</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="revCol">
+            <div class="content">
+              <img src="https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg" alt="Review3" style="width:70%; margin-left:auto; margin-right:auto; display: block;">
+              <h3>NAME</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="revCol">
+            <div class="content">
+              <img src="https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1114445501.jpg" alt="Review4" style="width:70%; margin-left:auto; margin-right:auto; display: block;">
+              <h3>NAME</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+        </div>
+        <!-- END REVIEWS DISPLAY CONTAINER -->
+      </div>
+      <div class="contact">
         <h2>Contact</h2>
+        <div class="contactimg">
+          <div class="image">
+            <img src="https://st3.depositphotos.com/2234534/34879/v/450/depositphotos_348796972-stock-illustration-beauty-salon-storefront-hairdresser-studio.jpg" style="width:500px;">
+          </div>
+          <div class="text" style="padding-left: 50px;">
+            <h3>Call us at</h3>
+            <p>555-555-5555</p>
+            <h3>We are located at</h3>
+            <p>123 whatever street</p>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="index.js"></script>
   </body>
