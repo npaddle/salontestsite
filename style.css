@@ -142,8 +142,10 @@
 /* Content */
 .content {
   background-color: #faadc949;
+  height: 400px;
+  width: 350px;
   padding: 10px;
-  border-radius: 70%;
+  border-radius: 20%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -177,3 +179,63 @@
  .introText {
   opacity: 100% !important;
  }
+
+
+
+
+
+
+i {
+  font-size: 3rem;
+  color: #faadc949;
+  padding: 1rem;
+  transition: all 0.3s linear;
+  transform: rotate(-45deg);
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-card {
+  cursor: pointer;
+  width: 300px;
+  margin: 20px;
+  padding: 2rem 20px 20px 20px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-container {
+  border: 2px solid #faadc949;
+  transition: 0.3s linear;
+  width: max-content;
+  margin: 0 auto;
+  transform: rotate(45deg);
+}
+
+.service-card:hover {
+  box-shadow: 0 0 30px 0 #faadc949;
+  transform: scale(1.1);
+}
+
+.service-card a {
+  color: #faadc949;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+      width: 100%;
+  }
+}
+
+ul.a {
+  list-style-type: "\22C6";
+}
