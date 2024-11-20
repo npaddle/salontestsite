@@ -143,7 +143,7 @@
 .content {
   background-color: #faadc949;
   height: 400px;
-  width: 350px;
+  /* width: 300px; */
   padding: 10px;
   border-radius: 20%;
   margin-left: auto;
