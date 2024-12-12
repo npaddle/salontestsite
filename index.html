@@ -7,62 +7,74 @@
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body> 
+    <!-- #d7e1c9 -->
+    <!-- #b6bbab -->
     <main>
-      <div class="header" style="position: sticky; width: 100%; top: 0;">
-        <!-- add header items with links
-        title should link back to homepage
-        contact page for location and number
-        services page with some pics of stuff nad prices with links to contact page
-        about page if they want to talk more about themself
-        social links if they have social media
-        client tesimony 
-        thankgiving special on homepage-->
-        <a href="/index.html" class="logo"><img src="/images/IMG-20210821-WA0024-removebg-preview.png" style="width: 250px; height: 50px;"></a>
+      <div class="topBar">
+        <a href="tel:5869326300" class="smallContact">
+          <i class="fa fa-phone" aria-hidden="true"></i> 
+          (586) 932-6300 &emsp;
+        </a>
+        <a class="smallContact" href="https://www.google.com/maps/place/Amazing+Browz+%26+Beauty/@42.626456,-83.026701,17z/data=!4m6!3m5!1s0x8824dd53a6e82963:0xb5f1b50372921964!8m2!3d42.626456!4d-83.0241261!16s%2Fg%2F11q886_m74?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+          <i class="fa fa-building" aria-hidden="true"></i>
+          8775 Hall Rd, Utica, MI 48317
+        </a>
+      </div>
+      <div class="header" style="width: 100%; top: 0;">
+        <!-- <a href="/index.html" class="logo" style="color: #68b701; font-size: 20px; font-weight: bold;">Amazing Browz & Beauty</a> -->
         <div class="header-right">
+          <a href="/index.html">Home</a>
           <a href="/about.html">About</a>
           <a href="/services.html">Services</a>
           <a href="/contact.html">Contact</a>
-          <a href="https://www.facebook.com/p/Amazing-Browz-Beauty-100072103874821/" target="_blank">Socials</a>
+          <a href="https://www.facebook.com/p/Amazing-Browz-Beauty-100072103874821/" target="_blank"><img src="/images/facebookLogo.png" style="width: 20px;"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="/images/instaLogo.png" style="width: 20px;"></a>
         </div>
       </div>
-      <div class="fixedHeader" style="background-image: url(/images/backgroundBanner.jpg);">
-        <div style="padding-top: 80px;">
-          <img src="/images/IMG-20210821-WA0024-removebg-preview.png" style="height: 150px; width: 700px;">
+      <div class="fixedHeader">
+        <div style="padding-top: 30px;">
+          <img src="/images/IMG-20210821-WA0024-removebg-preview.png" style="width: 70%;">
         </div>
       </div>
+      <h2 class="titleCard">About Us</h2>
       <div class="aboutus">
-        <h2 class="titleCard">About Us</h2>
-        <div class="briefIntro" >
-          <h3 style="font-size: 25px;">Welcome to Amazing Brows & Beauty!</h3>
-          We're here to help you feel like your best self! Treat yourself to our amazing services like threading, waxing, facials, and much more.
-          Our team is prepared to sit you down with comfort and send you off with condfidence. 
-          <p>Get ready to discover your new favourite spot for beauty!</p>
+        <div class="briefIntro" style="min-height: 300px;">
+          <h3 style="font-size: 25px; padding-top: 30px;">Welcome to Amazing Brows & Beauty!</h3>
+          <p style="display: inline-block; max-width: 600px;">
+            We're here to help you feel like your best self! Treat yourself to our amazing services like threading, waxing, facials, and much more.
+            Our team is prepared to sit you down with comfort and send you off with confidence. 
+          </p>
+          <p>Click below to discover your new favorite spot for beauty!</p>
           <p><a href="/about.html" class="button">
-                    Learn More
+                    About Us / Policies
           </a></p>
         </div>
+        <div>
+          <img class="aboutus-image" style="padding-top: 50px;" src="/images/PHOTO-2024-01-09-11-33-41.jpg" alt="AmazingBnB">
+        </div>
       </div>
-      <div class="specials">
+      <!-- <div class="specials">
         <h2 class="titleCard">Specials</h2>
         <div class="banner" style="background-image: url(https://windybot.com/img/WkrADcYOgv2nxtsdV0az.jpg);">
-          <div style="color: aliceblue;">
-            <h2 style="font-size: 20px;">We are currently having Thanksgiving specials!</h2>
+          <div style="color: aliceblue; padding-top: 50px;">
+            <h2 style="font-size: 30px;">We are currently having Thanksgiving specials!</h2>
             Please contact us to learn more
             <p><a href="/contact.html" class="button">
               Contact
             </a></p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="services">
         <!-- START SERVICES DISPLAY CONTAINER -->
-        <h2 class="titleCard">Services</h2>
+        <h2 class="titleCard" style="margin-top: 100px;">Services</h2>
         <div class="row">
           <div class="column">
             <div class="card">
-              <img src="https://media.istockphoto.com/id/603912306/photo/master-in-the-cabin-removes-facial-hair-strand.jpg?s=612x612&w=0&k=20&c=FdMxBRQyZNn98Cvc7Okg_dmujvsrmBHbBzr3XluzT_8=" alt="Service1" style="width:100%">
+              <img src="/images/istockphoto-603912306-612x612.jpg" alt="Service1" style="width:100%">
               <div class="container">
                 <h2>Facial Hair Removal</h2>
                 <p>We offer facial hair removal for target areas or full face. 
@@ -71,7 +83,7 @@
                   Click below to read more or scroll down to see reviews from satisfied clients!</p>
                 <p>$5 - 35</p>
                 <p><a href="/services.html" class="button">
-                  Read more
+                  View Services
                 </a></p>
               </div>
             </div>
@@ -79,16 +91,15 @@
         
           <div class="column">
             <div class="card">
-              <img src="https://www.cnyhealingarts.com/wp-content/uploads/2020/01/waxing-scaled-1.jpg" alt="Service2" style="width:100%;">
+              <img src="/images/360_F_144248813_1PduH2CEnX2mdR9UpVNerzZs6Kv64qsw.jpg" alt="Service2" style="width:100%;">
               <div class="container">
                 <h2>Body Hair Removal</h2>
-                <p style="color: red;">DUE TO RELIGIOUS RESTRICTIONS BODY WAXING IS LIMITED TO FEMALE CLIENTS ONLY</p>
                 <p>We offer body waxing services for target areas. 
                   The service is made painless with our high quality wax and experienced beuticians who prioritize client comfort. 
                   Click below to read more or scroll down to see reviews  from satisfied clients!</p>
                 <p>$13 - 60</p>
                 <p><a href="/services.html" class="button">
-                  Read more
+                  View Services
                 </a></p>
               </div>
             </div>
@@ -96,16 +107,16 @@
           
           <div class="column">
             <div class="card">
-              <img src="https://www.shutterstock.com/image-photo/portrait-pretty-relaxed-young-woman-600nw-2478831041.jpg" alt="Service3" style="width:100%">
+              <img src="/images/portrait-pretty-relaxed-young-woman-600nw-2478831041.webp" alt="Service3" style="width:100%">
               <div class="container">
                 <h2>Beauty Services</h2>
                 <p>We offer a wide range of other beauty services such as; 
-                  facials, eyebrow tinting, eyelash tinting, eyelash extensions, eyelash lift, eyebrow lamination, and more! 
+                  facials, eyebrow tinting, eyelash tinting, eyelash lift, eyebrow lamination, and more! 
                   Our experienced team guarantees high quality materials and service, with reviews raving about leaving with satisfactory results and no negative skin reactions. 
                   Click below to read more or scroll down to see reviews  from satisfied clients!</p>
                 <p>$20 - 70</p>
                 <p><a href="/services.html" class="button">
-                  Read more
+                  View Services
                 </a></p>
               </div>
             </div>
@@ -114,21 +125,9 @@
         <!-- END SERVICES DISPLAY CONTAINER -->
       </div>
       <div class="reviews">
-        <h2 class="titleCard">Reviews</h2>
+        <h2 class="titleCard" style="margin-top: 100px;">Reviews</h2>
         <!-- START REVIEWS DISPLAY CONTAINER -->
         <div class="revRow">
-          <div class="revCol">
-            <div class="content">
-              <h2>Anita Vellaichamy</h2>
-              <h3>5 &#11088;</h3>
-              <p>"I was calling around to find a brow salon open on Thanksgiving. Luckily, I found this place. 
-                I had friendly service with a smile when I entered and I was sat down immediately. The salon is very clean, quiet, and peaceful. 
-                I asked for a brow wax, and she asked if a little bit of threading was okay after the wax. I had no pain at all my whole experience! 
-                She took time to shape them perfectly and my sensitive skin has absolutely no damage (sometimes I swell or scab when I get my brows done). 
-                She was very knowledgeable about hair removal and skin care. My visit was worth the drive! 
-                I had better service/results here than at salons that charge $20+ for brows. I plan to return in a few weeks!"</p>
-            </div>
-          </div>
           <div class="revCol">
             <div class="content">
               <h2>Grace Stanczak</h2>
@@ -137,6 +136,25 @@
                 I had my whole face threaded and I usually don’t let any touch my eyebrows. 
                 I decided to give this place a chance and I was not disappointed. I will be returning every month. 10/10 experience. 
                 No wait and great prices!"</p>
+            </div>
+          </div>
+          <div class="revCol">
+            <div class="content">
+              <h2>AmBreia Brown</h2>
+              <h3>5 &#11088;</h3>
+              <p>"I came across Amazing Browz & Beauty just driving home from work and decided to give them a try 
+                with my eyebrow threading. I haven't been anywhere else since, they do great work
+                 and very friendly so I'd say give them a try."
+                </p>
+            </div>
+          </div>
+          <div class="revCol">
+            <div class="content">
+              <h2>Liv Faith</h2>
+              <h3>5 &#11088;</h3>
+              <p>"I went to get my eyebrows threaded and tinted. I was greeted with a very friendly woman. 
+                She knew exactly what she was doing. She shaped my eyebrows perfectly and tinted them nicely. 
+                Was a very quick service but also high-quality as well. Highly recommend. This will be my go-to spot from now on for my brows."</p>
             </div>
           </div>
           <div class="revCol">
@@ -151,31 +169,56 @@
                 I will be back- eyebrows are important to me, and I want them to be perfect.. and she definitely did that!"</p>
             </div>
           </div>
-          <div class="revCol">
-            <div class="content">
-              <h2>Liv Faith</h2>
-              <h3>5 &#11088;</h3>
-              <p>"I went to get my eyebrows threaded and tinted. I was greeted with a very friendly woman. 
-                She knew exactly what she was doing. She shaped my eyebrows perfectly and tinted them nicely. 
-                Was a very quick service but also high-quality as well. Highly recommend. This will be my go-to spot from now on for my brows."</p>
-            </div>
-          </div>
         </div>
         <!-- END REVIEWS DISPLAY CONTAINER -->
       </div>
       <div class="contact">
-        <h2 class="titleCard">Contact</h2>
+        <h2 class="titleCard" style="margin-top: 100px;">Contact</h2>
         <div class="contactimg">
-          <div class="image">
-            <img src="/images/storeFront.jpg" style="width:500px;">
-          </div>
-          <div class="text" style="padding-left: 50px; width: 100px;">
+          <div class="text" style="width: 100%; padding-bottom: 20px;">
             <h3>Call us at</h3>
-            <a href="tel:5869326300">(586) 932-6300</a>
+            <a href="tel:5869326300" style="text-decoration: none; color: #68b701;">(586) 932-6300</a>
             <h3>We are located at</h3>
-            <a href="https://www.google.com/maps/place/Amazing+Browz+%26+Beauty/@42.626456,-83.026701,17z/data=!4m6!3m5!1s0x8824dd53a6e82963:0xb5f1b50372921964!8m2!3d42.626456!4d-83.0241261!16s%2Fg%2F11q886_m74?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">8775 Hall Rd, Utica, MI 48317</a>
+            <a style="text-decoration: none; color: #68b701;" href="https://www.google.com/maps/place/Amazing+Browz+%26+Beauty/@42.626456,-83.026701,17z/data=!4m6!3m5!1s0x8824dd53a6e82963:0xb5f1b50372921964!8m2!3d42.626456!4d-83.0241261!16s%2Fg%2F11q886_m74?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">8775 Hall Rd, Utica, MI 48317</a>
+          </div>
+          <div class="image">
+            <img src="/images/storeFront.jpg" style="width:80%;">
           </div>
         </div>
+      </div>
+      <div class="bottomBar">
+        <div class="bottomInfo"> 
+          <p class="bottomTitle">ABOUT US</p>
+          <div style="color: white;">
+            <span style="display: inline-block;">
+              We're here to help you feel like your best self! Treat yourself to our amazing services like threading, waxing, facials, and much more. Our team is prepared to sit you down 
+              with comfort and send you off with confidence.
+            </span>
+          </div>
+        </div>
+        <div class="bottomInfo"> 
+          <p class="bottomTitle">OUR SERVICES</p>
+          <span style="color: white;">
+            <li>Threading</li>
+            <li>Waxing</li>
+            <li>Facials</li>
+            <li>Tinting</li>
+            <li>Lash Lifting</li>
+            <li>Brow Lamination</li>
+            <li>Henna Tattoo</li>
+          </span>
+        </div>
+        <div class="bottomInfo"> 
+          <p class="bottomTitle">CONTACT</p>
+          <span>
+            <a href="tel:5869326300" style="text-decoration: none; color: white;">(586) 932-6300</a>
+            <h3> </h3>
+            <a style="text-decoration: none; color: white;" href="https://www.google.com/maps/place/Amazing+Browz+%26+Beauty/@42.626456,-83.026701,17z/data=!4m6!3m5!1s0x8824dd53a6e82963:0xb5f1b50372921964!8m2!3d42.626456!4d-83.0241261!16s%2Fg%2F11q886_m74?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">8775 Hall Rd, Utica, MI 48317</a>
+          </span>
+        </div>
+      </div>
+      <div class="selfPromo">
+        Developed by <a href="https://npaddle.github.io/" target="_blank" style="color: #68b701; text-decoration: none;">Niki Patel</a>
       </div>
     </main>
     <script src="index.js"></script>
