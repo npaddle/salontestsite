@@ -117,7 +117,7 @@ body {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.511);
   background-color: aliceblue;
-  min-height: 700px;
+  min-height: 750px;
 }
 
 .container {
